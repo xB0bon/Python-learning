@@ -8,3 +8,5 @@ def main():
     window1.mainloop()
     if __name__ == '__main__':
         main()
+def pozdro():
+    print("test")
