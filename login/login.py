@@ -16,7 +16,7 @@ def sumbit():
 
 
         elif wybor.get() == 0:
-            messagebox.showinfo("Uwaga", "Jeśli chcesz korzystać z programu musisz zaakceptować regulamin.")
+            messagebox.showwarning("Uwaga", "Jeśli chcesz korzystać z programu musisz zaakceptować regulamin.")
             print(f"Zaakceptuj regulamin aby kontynuować!")
     else:
         print("błąd!")
