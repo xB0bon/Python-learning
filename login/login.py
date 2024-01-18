@@ -35,7 +35,7 @@ def regulamin():
 window = Tk()
 window.title("Logowanie")
 window.geometry("320x300")
-
+window.maxsize(320, 300)
 main = Label(window,
              text="Zaloguj się:",
              font=("Arial", 30))
