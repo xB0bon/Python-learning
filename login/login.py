@@ -45,7 +45,7 @@ main.place(x=10, y=10)
 label = Label(window,
               text="Username:",
               font=("Arial", 15))
-label.place(x=10, y=60)
+label.place(x=10, y=60) 
 
 entry1 = Entry(window,
                font=("Arial", 20),
