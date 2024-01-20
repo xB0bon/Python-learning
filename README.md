@@ -2,5 +2,11 @@ Hi I'm Peter and I learning python (:
 
 I want to be good programmer !
 
-Im watching: https://www.youtube.com/watch?v=XKHEtdqhLK8&t=19770s
+I learn from: 
+1. https://www.youtube.com/watch?v=XKHEtdqhLK8&t=19770s
+2. https://roadmap.sh/backend
+
+Git & github:
+1. https://www.w3schools.com/git/git_new_files.asp?remote=github
+2. https://roadmap.sh/full-stack - git & github
 
