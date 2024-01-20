@@ -13,7 +13,7 @@ def agree():
 window = Tk()
 x = IntVar()
 
-my_photo = PhotoImage(file="like2.png")
+my_photo = PhotoImage(file="login/like2.png")
 checkbox1 = Checkbutton(window,
                         text="I agree to something",
                         variable=x,

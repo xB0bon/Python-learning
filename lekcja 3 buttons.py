@@ -17,7 +17,7 @@ label = Label(window,
               fg="#00ff00",
               bg="black")
 label.pack()
-photo = PhotoImage(file="like2.png")
+photo = PhotoImage(file="login/like2.png")
 button1 = Button(window,
                  text="click me!",
                  font=("Arial", 20, "bold"),
