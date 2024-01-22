@@ -16,7 +16,7 @@ def start():
         window.update_idletasks()
 
         if x == 100:
-            messagebox.showinfo(title='jestes gejem', message='jestes gejem pozdro pozdro')
+            messagebox.showinfo(title='100%', message='100%')
 
 
 
