@@ -3,6 +3,7 @@ from tkinter import *
 window = Tk()
 window.title("Labels pozdro pozdro")
 window.geometry("400x400")
+print("siema")
 photo = PhotoImage(file="z2.png")
 label = Label(window, text="hello world!",
               font=("Arial", 40, "bold"),
