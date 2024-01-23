@@ -6,7 +6,7 @@ window.geometry("400x400")
 photo = PhotoImage(file="z2.png")
 label = Label(window, text="hello world!",
               font=("Arial", 40, "bold"),
-              fg="#00ff00", bg="black",
+              fg="#00ff00", bg="black", 
               relief=RAISED, bd=10,
               padx=60,
               pady=30,
