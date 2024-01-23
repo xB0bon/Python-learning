@@ -4,6 +4,7 @@ from tkinter import *
 def sumbit():
     username = entry.get()
     print(f"wpisałes: {username}")
+    print("test")
     #  entry.config(state=DISABLED)
 
 
