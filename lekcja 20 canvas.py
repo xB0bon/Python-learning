@@ -4,5 +4,5 @@ from tkinter import *
 
 
 window = Tk()
-pri
+
 window.mainloop()
