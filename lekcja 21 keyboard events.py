@@ -14,7 +14,7 @@ def clickedx(event):
 
 
 def clickedrandom(event):
-    #print("you click key: " + str(event.keysym))
+    # print("you click key: " + str(event.keysym))
 
     if str(event.keysym) == "exclam":
         label.config(text="!")
@@ -56,7 +56,6 @@ window.bind("<Return>", clickreturn)
 window.bind("<Escape>", clickescape)
 window.bind("<x>", clickedx)
 window.bind("<Key>", clickedrandom)
-
 
 click = Label(window, font=("Arial", 50, "bold"), text="You click:")
 click.pack()
