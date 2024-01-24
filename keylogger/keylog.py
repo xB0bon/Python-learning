@@ -7,7 +7,7 @@ time_now = time.localtime()
 lokalnie = time.strftime("month: %d %B\nhour: %H:%M:%S\n", time_now)
 
 with open(nazwa_pliku, 'a') as plik:
-    plik.writelines("\n"+lokalnie+"\n")
+    plik.writelines(f"\n {lokalnie} \n")
 
 
 def on_key_pressed(e):
