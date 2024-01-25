@@ -47,4 +47,4 @@ def okno():
 
     window1.mainloop()
 
-okno()
+

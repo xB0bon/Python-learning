@@ -7,7 +7,7 @@ def login_screen():
 
 def exit_program():
     main.destroy()
-    print("off")
+    login.login_new()
 
 main = Tk()
 main.geometry("400x300")
