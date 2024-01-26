@@ -6,9 +6,9 @@ window = Tk()
 
 x = IntVar()
 
-pizzaimage = PhotoImage(file="login/like2.png")
+pizzaimage = PhotoImage(file="../login/like2.png")
 KEBABimage = PhotoImage(file="z2.png")
-FRIESimage = PhotoImage(file="login/like2.png")
+FRIESimage = PhotoImage(file="../login/like2.png")
 hamburgerimage = PhotoImage(file="z2.png")
 
 images = [pizzaimage, KEBABimage, FRIESimage, hamburgerimage]
