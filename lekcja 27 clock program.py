@@ -19,6 +19,7 @@ window = Tk()
 window.title("Zegar")
 window.minsize(width=300, height=180)
 window.maxsize(width=300, height=180)
+window.iconbitmap("icon.ico")
 day_label = Label(window, text="", fg="#ff6600", font=("Arial", 30, "bold"))
 day_label.pack()
 
