@@ -1,8 +1,21 @@
-import time
+x = input("Jak masz na imię?: ")
+zn = True
+print(f"Witaj {x}!")
 
-x = 1
+z = input(f"Co chcesz napisać?: ")
+while True:
+    try:
+        y = int(input(f"Ile razy chcesz napisać {z}?: "))
+        if y > 30000:
+            print("Trochę za dużo!")
+        else:
+            break
 
-while x < 10:
-    print("siema")
-    print("wtf amigo")
-    time.sleep(1)
+
+    except ValueError:
+        print("Wpisz liczbę!")
+        
+
+for i in range(1, y + 1):
+    print(f"{i}.{z}.")
+

@@ -23,6 +23,7 @@ def start():
 window = Tk()
 bar = Progressbar(length=500)
 bar.pack()
+
 percent = StringVar()
 tasks = StringVar()
 Label(window, textvariable=percent).pack()

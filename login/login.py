@@ -1,7 +1,16 @@
 import modules
 from tkinter import *
 from tkinter import messagebox
+import pyodbc
 
+# Połączenie z bazą danych
+conn = pyodbc.connect(
+    'DRIVER={SQL Server};'
+    'SERVER=TWOJ_SERVER;'
+    'DATABASE=MojaBazaDanych;'
+    'UID=TWOJ_LOGIN;'
+    'PWD=TWOJE_HASLO;'
+)
 def login_new():
     def submit():
         username = entry1.get()

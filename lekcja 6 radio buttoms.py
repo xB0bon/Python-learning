@@ -6,12 +6,8 @@ window = Tk()
 
 x = IntVar()
 
-pizzaimage = PhotoImage(file="../login/like2.png")
-KEBABimage = PhotoImage(file="z2.png")
-FRIESimage = PhotoImage(file="../login/like2.png")
-hamburgerimage = PhotoImage(file="z2.png")
 
-images = [pizzaimage, KEBABimage, FRIESimage, hamburgerimage]
+
 
 
 for index in range(len(food)):
@@ -20,9 +16,8 @@ for index in range(len(food)):
                               value=index,
                               variable=x,
                               font=("Arial", 20, "bold"),
-                              image=images[index],
                               compound=RIGHT,
-                              indicatoron=0,# usuwa kropki
+                              # usuwa kropki
                               width=775)
     RadioButton.pack(anchor=W)
 
